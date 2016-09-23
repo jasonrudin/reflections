@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I was able to rapidly see where things had changed to focus my attention about where a bug could be. It also enabled quick comparison to the old and new version, making finding the specific bug easier..
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It will allow me to find bugs as I introduce them, or get access to old code that I had deleted if I want it back. Don’t need to waste space or have a confusing file naming system - saving multiple files that are effectively the same is confusing.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manual: Save space of files (only meaningful if they are really large), logical breaking points (each commit has meaning)
+Cons: It is more likely that you will forget to commit, also could have larger diffs making bug tracking hard. you could also introduce errors somehow by committing incorrectly.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Bundling of files may be more logical, it is a pain to manually commit multiple files one by one, files may have dependancies and if you update them one by one things could break in the meantime. Interdependencies is probably the biggest reason.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Use log to find the commits you want to look at. Diff shows you the difference between two files in a  relatively nice way!
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Nothing is permanent, things can always be rolled back! Its easy enough to find how things are broken and go back to older versions where things were working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Non text based files would be interesting (psd). also nothing setting up sublime text was a nightmare.
