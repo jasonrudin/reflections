@@ -13,3 +13,7 @@ Branches are different progressions of commits. Clones is a copy of a full repos
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You are able to stay aware of the new stuff that you are adding that isn't in the remote while you are offline? Not too sure.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Its way harder. While there is a lot of syntax and overhead with Git and Github, once you master it, it becomes a lot easier to version share and collaborate.
